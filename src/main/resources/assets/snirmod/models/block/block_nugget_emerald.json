@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "snirmod:block/block_nugget_emerald"
+  }
+}
