@@ -7,6 +7,7 @@ package fr.freeboxos.ftb.snir;
 
 import fr.freeboxos.ftb.snir.common.utils.OreGeneration;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;

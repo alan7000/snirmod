@@ -9,6 +9,7 @@ import fr.freeboxos.ftb.snir.SnirMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.BlockNamedItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.event.RegistryEvent;
@@ -43,6 +44,12 @@ public class SnirModBlocks {
     public static final Block BLOCK_DUST_NETHERSTAR = null;
 
     /**
+     * Block nether star
+     */
+    @ObjectHolder(SnirMod.MOD_ID + ":block_netherstar")
+    public static final Block BLOCK_NETHERSTAR = null;
+
+    /**
      * Déclaration de tous les blocs du mod.
      *
      * @param event
@@ -52,6 +59,7 @@ public class SnirModBlocks {
         event.getRegistry().register(new BlockNuggetEmerald(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5F, 6.0F)).setRegistryName("block_nugget_emerald"));
         event.getRegistry().register(new BlockNuggetDiamond(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5F, 6.0F)).setRegistryName("block_nugget_diamond"));
         event.getRegistry().register(new BlockDustNetherStar(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5F, 6.0F)).setRegistryName("block_dust_netherstar"));
+        event.getRegistry().register(new BlockDustNetherStar(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5F, 6.0F)).setRegistryName("block_netherstar"));
     }
 
     /**
@@ -64,6 +72,7 @@ public class SnirModBlocks {
         event.getRegistry().register(new BlockItem(BLOCK_NUGGET_EMERALD, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(BLOCK_NUGGET_EMERALD.getRegistryName()));
         event.getRegistry().register(new BlockItem(BLOCK_NUGGET_DIAMOND, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(BLOCK_NUGGET_DIAMOND.getRegistryName()));
         event.getRegistry().register(new BlockItem(BLOCK_DUST_NETHERSTAR, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(BLOCK_DUST_NETHERSTAR.getRegistryName()));
+        event.getRegistry().register(new BlockItem(BLOCK_NETHERSTAR, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(BLOCK_NETHERSTAR.getRegistryName()));
     }
 
 }

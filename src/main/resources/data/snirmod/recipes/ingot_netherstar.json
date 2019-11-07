@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "snirmod:block_netherstar"
+        }
+    ],
+    "result":
+            {
+                "item": "snirmod:item_netherstar_ingot",
+                "count": 9
+            }
+}

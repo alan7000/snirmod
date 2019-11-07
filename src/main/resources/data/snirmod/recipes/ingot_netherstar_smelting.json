@@ -1,0 +1,10 @@
+
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "snirmod:item_dust_netherstar"
+    },
+    "result": "snirmod:item_netherstar_ingot",
+    "experience": 0.5
+}
+
