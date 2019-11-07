@@ -35,6 +35,12 @@ public class OreGeneration {
              */
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, SnirModBlocks.BLOCK_NUGGET_DIAMOND.getDefaultState(), 6
             ), Placement.COUNT_RANGE, new CountRangeConfig(10, 20, 0, 128)));
+
+            /**
+             * Generation dust netherstar
+             */
+            biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, SnirModBlocks.BLOCK_DUST_NETHERSTAR.getDefaultState(), 10
+            ), Placement.COUNT_RANGE, new CountRangeConfig(1, 20, 0, 128)));
         }
     }
 
