@@ -32,10 +32,22 @@ public class SnirModItems {
     @ObjectHolder(SnirMod.MOD_ID + ":item_nugget_diamond")
     public static final Item ITEM_NUGGET_DIAMOND = null;
 
+    /**
+     * Item dust nether star
+     */
+    @ObjectHolder(SnirMod.MOD_ID + ":item_dust_netherstar")
+    public static final Item ITEM_DUST_NETHERSTAR = null;
+
+    /**
+     * Creation de tous les items
+     *
+     * @param event
+     */
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new ItemNuggetEmerald(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("item_nugget_emerald"));
         event.getRegistry().register(new ItemNuggetDiamond(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("item_nugget_diamond"));
+        event.getRegistry().register(new ItemDustNetherStar(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("item_dust_netherstar"));
     }
 
 }
