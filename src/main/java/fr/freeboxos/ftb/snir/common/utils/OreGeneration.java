@@ -47,6 +47,12 @@ public class OreGeneration {
              */
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, SnirModBlocks.BLOCK_GOLD_BRUT.getDefaultState(), 6
             ), Placement.COUNT_RANGE, new CountRangeConfig(20, 20, 0, 128)));
+
+            /**
+             * Generation iron brut
+             */
+            biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, SnirModBlocks.BLOCK_IRON_BRUT.getDefaultState(), 6
+            ), Placement.COUNT_RANGE, new CountRangeConfig(20, 20, 0, 128)));
         }
     }
 

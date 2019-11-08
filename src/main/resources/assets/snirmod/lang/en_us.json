@@ -4,8 +4,11 @@
     "block.snirmod.block_dust_netherstar": "Block dust nether star",
     "block.snirmod.block_netherstar": "Block nether star",
     "block.snirmod.block_gold_brut": "Block gold brut",
+    "block.snirmod.block_iron_brut": "Block iron brut",
     "item.snirmod.item_nugget_emerald": "Item nugget emerald",
     "item.snirmod.item_nugget_diamond": "Item nugget diamond",
     "item.snirmod.item_dust_netherstar": "Item dust nether star",
-    "item.snirmod.item_netherstar_ingot": "Item netherstar ingot"
+    "item.snirmod.item_netherstar_ingot": "Item netherstar ingot",
+    "item.snirmod.item_gold_brut": "Item gold brut",
+    "item.snirmod.item_iron_brut": "Item iron brut"
 }

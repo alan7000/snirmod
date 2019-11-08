@@ -55,6 +55,12 @@ public class SnirModBlocks {
     public static final Block BLOCK_GOLD_BRUT = null;
 
     /**
+     * Block iron brut
+     */
+    @ObjectHolder(SnirMod.MOD_ID + ":block_iron_brut")
+    public static final Block BLOCK_IRON_BRUT = null;
+
+    /**
      * Déclaration de tous les blocs du mod.
      *
      * @param event
@@ -66,6 +72,7 @@ public class SnirModBlocks {
         event.getRegistry().register(new BlockDustNetherStar(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5F, 6.0F)).setRegistryName("block_dust_netherstar"));
         event.getRegistry().register(new BlockDustNetherStar(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5F, 6.0F)).setRegistryName("block_netherstar"));
         event.getRegistry().register(new BlockGoldBrut(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5F, 6.0F)).setRegistryName("block_gold_brut"));
+        event.getRegistry().register(new BlockIronBrut(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5F, 6.0F)).setRegistryName("block_iron_brut"));
     }
 
     /**
@@ -80,6 +87,7 @@ public class SnirModBlocks {
         event.getRegistry().register(new BlockItem(BLOCK_DUST_NETHERSTAR, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(BLOCK_DUST_NETHERSTAR.getRegistryName()));
         event.getRegistry().register(new BlockItem(BLOCK_NETHERSTAR, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(BLOCK_NETHERSTAR.getRegistryName()));
         event.getRegistry().register(new BlockItem(BLOCK_GOLD_BRUT, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(BLOCK_GOLD_BRUT.getRegistryName()));
+        event.getRegistry().register(new BlockItem(BLOCK_IRON_BRUT, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(BLOCK_IRON_BRUT.getRegistryName()));
     }
 
 }

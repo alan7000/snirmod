@@ -51,6 +51,12 @@ public class SnirModItems {
     public static final Item ITEM_GOLD_BRUT = null;
 
     /**
+     * Item iron brut
+     */
+    @ObjectHolder(SnirMod.MOD_ID + ":item_iron_brut")
+    public static final Item ITEM_IRON_BRUT = null;
+
+    /**
      * Creation de tous les items
      *
      * @param event
@@ -62,6 +68,7 @@ public class SnirModItems {
         event.getRegistry().register(new ItemDustNetherStar(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("item_dust_netherstar"));
         event.getRegistry().register(new ItemNetherStarIngot(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("item_netherstar_ingot"));
         event.getRegistry().register(new ItemGoldBrut(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("item_gold_brut"));
+        event.getRegistry().register(new ItemIronBrut(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("item_iron_brut"));
     }
 
 }
