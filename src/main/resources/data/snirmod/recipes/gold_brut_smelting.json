@@ -1,0 +1,10 @@
+
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "snirmod:item_gold_brut"
+    },
+    "result": "minecraft:gold_ingot",
+    "experience": 0.5
+}
+

@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "snirmod:block_gold_brut"
+                    "name": "snirmod:item_gold_brut"
                 }
             ],
             "conditions": [
